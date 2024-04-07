@@ -1,7 +1,8 @@
 import './Navbar.scss';
-import linked from '../../../public/LinkedIn-Logos/In/Digital/Blue/1x/In-Blue-21.png';
-import GitHub from '../../../public/github-mark/github-mark-white.png';
-import itch from '../../../public/itchio-textless-white.svg';
+import linked from './LinkedIn-Logos/In/Digital/Blue/1x/In-Blue-34.png';
+import GitHub from './github-mark/github-mark-white.svg';
+import itch from './itchio-textless-white.svg';
+import discord from './discord-mark-blue.svg'
 
 const Navbar = () => {
   return (
@@ -11,10 +12,10 @@ const Navbar = () => {
         <div className="wrapper">
             <span>Karen Bourgeois</span>
             <div className="social">
-                <a href=''><img src={linked} alt="LinkedIn" /></a>
-                <a href=''><img src={GitHub} alt="GitHub" /></a>
-                
-                <a href=''><img src={itch} alt="" /></a>
+                <a href='www.linkedin.com/in/karen-bourgeois-120b5022a'><img src={linked} alt="LinkedIn" /></a>
+                <a href='https://github.com/kzefram'><img src={GitHub} alt="GitHub" /></a>
+                <a href='discordapp.com/users/karenangela'><img src={discord} alt="Discord" /></a>
+                <a href='https://kbour.itch.io/'><img src={itch} alt="itch.io" /></a>
         </div>
         </div>
     </div>

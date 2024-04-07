@@ -6,8 +6,9 @@
         max-width: 1366px;
         margin: auto;
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-between;
+        height: 100%;
 
         span {
             font-weight: bold;
@@ -17,6 +18,11 @@
             display: flex;
             gap: 20px;
             color: inherit;
+
+            img {
+                width: 18px;
+                height: 18px;
+            }
         }
     }
 }
