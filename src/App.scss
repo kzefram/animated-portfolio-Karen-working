@@ -1,5 +1,8 @@
+section {}
+
+
 html {
-    scroll-snap-type: mandatory;
+    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 
