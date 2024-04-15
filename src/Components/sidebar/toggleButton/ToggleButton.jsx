@@ -6,7 +6,7 @@ const ToggleButton = ({ setOpen }) => {
       <svg width={30} height={30} viewBox="0 0 24 24">
         <motion.path
           strokeWidth="2"
-          stroke="black"
+          stroke="#6F8FAF"
           strokeLinecap="round"
           variants={{
             closed: { d: "M 2 2.5 L 20 2.5" },
@@ -15,14 +15,14 @@ const ToggleButton = ({ setOpen }) => {
         />
         <motion.path
           strokeWidth="2"
-          stroke="black"
+          stroke="#6F8FAF"
           strokeLinecap="round"
           d="M 2 9.423 L 20 9.423"
           variants={{ closed: { opacity: 1 }, open: { opacity: 0 } }}
         />
         <motion.path
           strokeWidth="2"
-          stroke="black"
+          stroke="#6F8FAF"
           strokeLinecap="round"
           variants={{
             closed: { d: "M 2 16.346 L 20 16.346" },
